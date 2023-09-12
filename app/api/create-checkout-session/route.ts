@@ -38,7 +38,7 @@ export async function POST(
       subscription_data: {
         // trial_from_plan: true,
         trial_end: 1610403705,
-        metadata,
+        metadata: {}
       },
       success_url: `${getURL()}/account`,
       cancel_url: `${getURL()}/`
