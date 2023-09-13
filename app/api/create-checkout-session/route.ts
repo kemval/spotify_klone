@@ -36,9 +36,9 @@ export async function POST(
       mode: 'subscription',
       allow_promotion_codes: true,
       subscription_data: {
-        // trial_from_plan: true,
-        // trial_end: 1610403705,
-        metadata
+        // // trial_from_plan: true,
+        // // trial_end: 1610403705,
+        // metadata
       },
       success_url: `${getURL()}/account`,
       cancel_url: `${getURL()}/`
